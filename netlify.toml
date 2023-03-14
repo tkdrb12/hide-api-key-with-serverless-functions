@@ -8,7 +8,7 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/api/*"
-to = "/.netlify/functions/api/:splat"
+from = "/3/*"
+to = "/:splat"
 status = 200
 force = true
