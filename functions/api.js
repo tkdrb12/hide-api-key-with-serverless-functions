@@ -15,7 +15,7 @@ exports.handler = async (event) => {
     headers: { referer },
   } = event;
 
-  const url = new URL(APIS_ORIGIN + path.replace("api", ""));
+  const url = new URL(APIS_ORIGIN + path);
   const parameters = querystring.stringify({
     ...queryStringParameters,
     api_key: process.env.API_KEY,

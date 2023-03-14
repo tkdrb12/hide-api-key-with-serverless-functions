@@ -4,7 +4,7 @@ functions = "./functions"
 
 [[redirects]]
 from = "dummy/api/*"
-to = "/.netlify/functions/api/:splat"
+to = "/.netlify/functions/dummy/:splat"
 status = 200
 force = true
 
