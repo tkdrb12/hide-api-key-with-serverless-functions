@@ -1,14 +1,15 @@
+
 [build]
 functions = "./functions"
 
 [[redirects]]
 from = "dummy/api/*"
-to = "/.netlify/functions/dummy/:splat"
+to = "/.netlify/functions/api/:splat"
 status = 200
 force = true
 
 [[redirects]]
-from = "/3/*"
-to = "/:splat"
+from = "/api/*"
+to = "/.netlify/functions/api/:splat"
 status = 200
 force = true
