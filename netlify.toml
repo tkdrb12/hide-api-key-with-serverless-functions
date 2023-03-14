@@ -3,12 +3,12 @@ functions = "./functions"
 
 [[redirects]]
 from = "dummy/api/*"
-to = "/:splat"
+to = "/.netlify/functions/dummy/:splat"
 status = 200
 force = true
 
 [[redirects]]
 from = "/api/*"
-to = "/:splat"
+to = "/.netlify/functions/api/:splat"
 status = 200
 force = true
