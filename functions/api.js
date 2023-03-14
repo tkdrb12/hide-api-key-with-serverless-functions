@@ -32,7 +32,7 @@ exports.handler = async (event) => {
         statusCode: body.error.code,
         ok: false,
         headers,
-        body: stringify(body),
+        body: body,
       };
     }
 
